@@ -1,0 +1,13 @@
+Default URLs:
+swagger: https://thinkbridgetestasp-1.onrender.com/swagger/index.html
+UI: https://thinkbridgetestasp-1.onrender.com/index.html
+
+##Data available
+INSERT INTO Invoices (InvoiceID, CustomerName) VALUES (1, 'John Doe');
+INSERT INTO Invoices (InvoiceID, CustomerName) VALUES (2, 'Alice Smith');
+
+INSERT INTO InvoiceItems (ItemID, InvoiceID, Name, Price) VALUES (1, 1, 'Widget A', 19.99);
+INSERT INTO InvoiceItems (ItemID, InvoiceID, Name, Price) VALUES (2, 1, 'Widget B', 29.99);
+
+INSERT INTO InvoiceItems (ItemID, InvoiceID, Name, Price) VALUES (3, 2, 'Service X', 99.50);
+INSERT INTO InvoiceItems (ItemID, InvoiceID, Name, Price) VALUES (4, 2, 'Support Y', 49.00);
